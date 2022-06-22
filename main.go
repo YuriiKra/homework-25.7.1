@@ -9,7 +9,7 @@ import (
  
 func main() {
     
-	fmt.Print("Введите целое число: ")
+	fmt.Print("Введите данные: ")
 
 	reader := bufio.NewReader(os.Stdin)
 
@@ -18,5 +18,5 @@ func main() {
     if err !=nil {
         log.Fatal(err)
     }
-    fmt.Printf("Вы ввели число: %s\n", str)
+    fmt.Printf("Вы ввели следующие данные: %s\n", str)
 }
